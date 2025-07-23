@@ -5,3 +5,24 @@ body, main {
 article, aside {
     overflow-y: auto;
 }
+.logo {
+  font-size: 2rem;
+  padding-right: 1rem;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1rem;
+}
+
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 1rem;
+}
