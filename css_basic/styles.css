@@ -1,0 +1,7 @@
+body, main {
+    display: flex;
+    flex-direction: row;
+}
+article, aside {
+    overflow-y: auto;
+}
