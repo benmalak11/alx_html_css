@@ -1,0 +1,172 @@
+
+body {
+   position: absolute;
+   width: 1440px;
+   height: 1093px;
+   background-image: url(../CSS\ Advanced/Object.png);
+   background-repeat: no-repeat;
+   overflow-x: hidden;
+
+}
+
+.logo {
+  font-size: 24px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: 100px;
+}
+
+.nav-links {
+  display: flex;
+  margin: 2rem auto;
+  list-style: none;
+  gap: 1rem;
+  align-items: center;
+  padding: 0 auto;
+  text-decoration: none;
+  width: 100%;
+  max-width: center;
+  margin-top: 1rem;
+  margin-right: 200px;
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem 2rem;
+   position: 172.50px 35.02px;
+   gap: 700px;
+}
+nav a {
+   color:rgb(255, 255, 255);
+   text-decoration: none;
+width: 234px;
+height: 15px;
+left: 1041px;
+top: 37px;
+font-family: 'Source Sans Pro';
+font-style: normal;
+}
+h1 {
+   color:rgb(255, 255, 255);
+   font-size: 120px;
+   text-align: center;
+   font-family: 'Source Sans Pro';
+   font-weight: bold;
+}
+   @font-face {
+  font-family: 'Source Sans Pro';
+  src: url(../source-sans-pro/SourceSansPro-Bold.otf);
+  font-weight: bold;
+}
+div {
+  
+   color:rgb(255, 255, 255);
+}
+button {
+   align-items: center;
+    margin-top: 20px;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    background-color: #C271FF;
+  padding: 0;
+  margin-top: 20px;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  font-family: 'Source Sans Pro';
+  background-color: #C271FF;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 15px 20px;
+  border-radius: 80px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6); /* purple glow all around */
+  transition: box-shadow 0.9s ease;
+}
+.hy {
+   gap: 700px;
+   margin-top: -100px; 
+   font-family: 'Source Sans Pro';
+   margin-right: 50px 50px 50px;
+
+}
+h2 {
+   text-align: center;
+   margin-top: 120px;
+   font-size: 32px;
+   
+}
+
+.img1 {
+   width: 130px;
+}
+.img2 {
+   width: 130px;
+}
+.img3 {
+   width: 130px;
+}
+.img4 {
+   width: 130px;
+}
+
+.one1 {
+   margin-left: 220px;
+   margin-top: 10px;
+}
+.one2 {
+   margin-left: 220px;
+   font-size: 14px;
+   margin-top: -15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.hy2 {
+   margin-left: 220px;
+   position: relative; 
+   top: 0; 
+   right: 0;
+}
+.second1{
+   margin-left: 500px;
+   margin-top: -70px;
+}
+.second2 {
+   margin-left: 510px;
+   font-size: 14px;
+   margin-top: -15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+}
+.three1{
+   margin-left: 760px;
+   margin-top: -85px;
+}
+.three2 {
+   margin-left: 760px;
+   font-size: 14px;
+   margin-top: -15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+}
+.four1{
+   margin-left: 999px;
+   margin-top: -100px;
+}
+.four2 {
+   margin-left: 999px;
+   font-size: 14px;
+   margin-top: -15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+}
