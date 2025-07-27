@@ -216,3 +216,277 @@ margin-left: -10px;
    margin-top: -10px;
    font-style: italic;
 }
+.therdpart {
+  color:rgb(0, 0, 0);
+  margin-top: 450px;
+  font-size: 32px;
+}
+
+
+
+.rating{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    text-align: left;
+
+}
+.rating h2{
+    font-size: 32px;
+    position: absolute;
+    top: 1582px;
+    left: 583px;
+    text-align: center;
+    font-family: 'Source Sans Pro Light';
+    font-weight: lighter;
+
+}
+.rating .different{
+    font-family: 'Source Sans Pro';
+    color: #C271FF;
+    font-weight: bold;
+}
+.rating .first-rating{
+    position: absolute;
+    top: 1697px;
+    left: 158px;
+    text-align: left;
+}
+.rating .second-rating{
+    position: absolute;
+    top: 1697px;
+    left: 444px;
+
+    text-align: left;
+}
+.rating .third-rating{
+    position: absolute;
+    top: 1697px;
+    left: 729px;
+    text-align: left;
+}
+.rating .fourth-rating{
+    position: absolute;
+    top: 1697px;
+    left: 1014px;
+    text-align: left;
+    
+}
+.rating .f-img{
+    position: absolute;
+    top: 45px;
+    left: 85px;
+}
+.rating .s-img{
+    position: absolute;
+    top: 45px;
+    left: 90px;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+.rating .t-img{
+    position: absolute;
+    top: 45px;
+    left: 90px;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+.rating .fo-img{
+    position: absolute;
+    top: 45px;
+    left: 90px;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+.rating h3{
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+}
+.rating p{
+    color: rgba(7, 22, 41, 0.5016);
+    font-size: 14px;
+    font-family:'Source Sans Pro Light' ;
+}
+.rating .rat{
+    display: flex;
+}
+.rating h4{
+    color: #C271FF;
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+}
+.rating .m8{
+    color: #C271FF;
+    font-size: 14;
+    font-family: 'Source Sans Pro Light';
+    position: absolute;
+    top: 285px;
+    left: 223px;
+}
+.rating .stars{
+    color: #C271FF;
+    font-weight: lighter;
+}
+.ratinng .stars-1{
+    color:rgba(7, 22, 41, 0.5016);
+}
+.black-part{
+    position: absolute;
+    top: 2126px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(7, 22, 41, 1);
+    padding: 272px 720px;
+    align-items: center;
+}
+.black-part h2 {
+    position: absolute;
+    left: 617px;
+    top: 70px;
+    font-size: 32px;
+    font-family: 'Source Sans Pro Light';
+    color: white;
+    font-weight: lighter;
+}
+.black-part .different{
+    font-family: 'Source Sans Pro';
+    color: #C271FF;
+}
+.black-part .f-black{
+    position: absolute;
+    left: 214px;
+    top: 188px;
+    color: white;
+    text-align: center;
+}
+.black-part .s-black{
+    position: absolute;
+    left: 498px;
+    top: 188px;
+    color: white;
+    text-align: center;
+}
+.black-part .t-black{
+    position: absolute;
+    left: 783px;
+    top: 188px;
+    color: white;
+    text-align: center;
+}
+.black-part .fo-black{
+    position: absolute;
+    left: 1069px;
+    top: 188px;
+    color: white;
+    text-align: center;
+}
+.black-part h3{
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+}
+.black-part p{
+    font-family: 'Source Sans Pro Light';
+}
+.faq h2 {
+    position: absolute;
+    left: 657px;
+    top: 2650px;
+    font-size: 60px;
+    font-family: 'Source Sans Pro Light';
+    font-weight: lighter;
+}
+.faq .f-h{
+    position: absolute;
+    left: 242px;
+    top: 2799px;
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+}
+.faq .s-h{
+    position: absolute;
+    left: 812px;
+    top: 2799px;
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+}
+.faq .t-h{
+    position: absolute;
+    left: 242px;
+    top: 3244px;
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+}
+.faq .fo-h{
+    position: absolute;
+    left: 812px;
+    top: 3244px;
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+}
+.faq .f-p{
+    position: absolute;
+    left: 242px;
+    top: 2869px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 2;
+    font-family: 'Source Sans Pro Light';
+    font-weight: lighter;
+    color: rgba(7, 22, 41, 0.5016);
+}
+.faq .s-p{
+    position: absolute;
+    left: 812px;
+    top: 2869px;
+    font-size: 14px;
+    line-height: 2;
+    font-family: 'Source Sans Pro Light';
+    font-weight: lighter;
+    color: rgba(7, 22, 41, 0.5016)
+}
+.faq .t-p{
+    position: absolute;
+    left: 242px;
+    top: 3314px;
+    font-size: 14px;
+    line-height: 2;
+    font-family: 'Source Sans Pro Light';
+    font-weight: lighter;
+    color: rgba(7, 22, 41, 0.5016)
+}
+.faq .fo-p{
+    position: absolute;
+    left: 812px;
+    top: 3314px;
+    font-size: 14px;
+    line-height: 2;
+    font-family: 'Source Sans Pro Light';
+    font-weight: lighter;
+    color: rgba(7, 22, 41, 0.5016)
+}
+.last-part{
+    position: absolute;
+    top: 3639px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(7, 22, 41, 1);
+    padding: 155px 720px;
+    color: white;
+}
+.last-part .l-img{
+    position: absolute;
+    left: 165px;
+}
+.last-part p{
+    position: absolute;
+    left: 672px;
+    top: 295px;
+    color: rgba(116, 123, 134, 0.588)
+}
+.last-part .facebook{
+    position: absolute;
+    left: 1070px;
+}
