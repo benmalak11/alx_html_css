@@ -1,0 +1,420 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?sq4eq4');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?sq4eq4#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?sq4eq4') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?sq4eq4') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?sq4eq4##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+
+
+
+body {
+   background-image:url(../headphones/images/headphones_hero_1.jpg);
+   background-repeat: no-repeat;
+   overflow-x: hidden;
+   position: absolute;
+   width: 1440px;
+   height: 1093px;
+}
+.logo {
+    width: 150px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+nav ul {
+  list-style: none;              /* remove bullets */
+  margin: 0;
+  padding: 0;
+  display: flex;                  /* items in one row */
+  justify-content: flex-end;      /* push them to the right */
+  gap: 20px;                       /* space between links */
+  margin-right: 300px;
+  margin-top: -30px;
+}
+
+nav ul li a {
+  text-decoration: none;          /* remove underline */
+  color: #ffffff;
+  font-family: 'Verdana', 'Geneva', Tahoma, sans-serif;
+  font-size: 11px;
+}
+h1 {
+    color:#ffffff;
+    text-align: center;
+    margin-top: 330px;
+    font-family: 'Verdana', 'Geneva', Tahoma, sans-serif;
+}
+.span1 {
+    color:#ffffff;
+    text-align: center;
+    display: block;       /* so it can take up full width */
+  text-align: center;   /* centers the text inside */
+  font-family: 'Verdana', 'Geneva', Tahoma, sans-serif;
+  font-size: 12px;
+}
+.button {
+   margin-top: 90px;
+   text-decoration: none;
+   list-style: none;
+   border: none;
+   background-color: #C271FF;
+   padding: 0;
+   margin-top: 20px;
+   font: inherit;
+   color: inherit;
+   cursor: pointer;
+   font-family: 'Verdana', 'Geneva', Tahoma, sans-serif;
+   background-color: #ff7171;
+   color: rgb(255, 255, 255);
+   border: none;
+   padding: 15px 20px;
+   border-radius: 80px;
+   cursor: pointer;
+   font-weight: bold;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.6); /* purple glow all around */
+   transition: box-shadow 0.9s ease;
+   text-align: center;   /* centers the text inside */
+   display: flex;
+   justify-content: center;  /* horizontal center */
+   align-items: center;      /* vertical center */
+   display: block;       /* makes it act like a block element */
+   margin: 0 auto;       /* automatically set left & right margins */
+   margin-top: 10px;
+}
+.p1 {
+    color:#ffffff;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+   margin-bottom: -14px;
+   
+}
+@font-face {
+  font-family: 'holberton_school-icon';
+  src:  url('fonts/holberton_school-icon.eot?sq4eq4');
+  src:  url('fonts/holberton_school-icon.eot?sq4eq4#iefix') format('embedded-opentype'),
+    url('fonts/holberton_school-icon.ttf?sq4eq4') format('truetype'),
+
+
+
+
+
+
+    url('fonts/holberton_school-icon.woff?sq4eq4') format('woff'),
+    url('fonts/holberton_school-icon.svg?sq4eq4#holberton_school-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: 'source sans pro';
+  src:  url('headphones/images/SourceSansPro-Black.otf');
+}
+.p {
+   margin-top: 51px;
+}
+
+.whatwedo {
+    color: black;
+    text-align: center;
+    margin-top: 250px;
+    font-family: 'Verdana', 'Geneva', Tahoma, sans-serif;
+}
+.p2 {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+   margin-bottom: -14px;
+   
+}
+.pp1 {
+     margin-top: 51px;
+}
+.img1 {
+    width: 1000px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.lorem1 {
+    margin-left: 195px;
+    font-family: 'Verdana', 'Geneva', Tahoma, sans-serif;
+    font-size: 15px;
+}
+.lorem01 {
+    margin-right: 65rem;
+    text-align: center;
+    margin-left: -75px;
+    font-family: 'Verdana', 'Geneva', Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.lorem2 {
+    
+    margin-right: -700px;
+}
+.lorem002{
+    margin-left: 500px;
+    margin-top: -105px;
+    font-family: 'Verdana', 'Geneva', Tahoma, sans-serif;
+    font-size: 17px;
+}
+.lorem02 {
+    margin-right: 65rem;
+    text-align: center;
+    margin-left: -6px;
+    font-family: 'Verdana', 'Geneva', Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.lorem3 {
+    margin-right: -1310px;
+}
+.lorem003 {
+    margin-left: 50rem;
+    margin-top: -109px;
+    font-family: 'Verdana', 'Geneva', Tahoma, sans-serif;
+    font-size: 17px;
+}
+.lorem03 {
+    margin-right: 65rem;
+    text-align: center;
+    margin-left: -6px;
+    font-family: 'Verdana', 'Geneva', Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.lorem4 {
+    margin-right: -1920px;
+}
+.lorem004 {
+    margin-left: 69rem;
+    margin-top: -109px;
+    font-family: 'Verdana', 'Geneva', Tahoma, sans-serif;
+    font-size: 17px;
+}
+.lorem04 {
+    margin-right: 65rem;
+    text-align: center;
+    margin-left: -6px;
+    font-family: 'Verdana', 'Geneva', Tahoma, sans-serif;
+    font-size: 15px;
+}
+.bady2 {
+    background-image: url(../headphones/images/headphones_hero_2.jpg);
+    background-repeat: no-repeat;
+   overflow-x: hidden;
+   position: absolute;
+   width: 1440px;
+   height: 1093px;
+   margin-top: 100px;
+}
+.whatwedo1 {
+    color:#ffffff;
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Verdana', 'Geneva', Tahoma, sans-serif;
+}
+.p21 {
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+   margin-bottom: -9px;
+   color:#ffffff;
+}
+.pp11 {
+     margin-top: 51px;
+}
+.img001, .img002, .img003, .img004 {
+    margin-top: 70px;
+    width: 170px;
+   display:inline-block;
+    margin-left: 100px;
+}
+.img001 {
+  margin-left: 220px;
+}
+.img002 {
+    margin-left: 80px;
+}
+.img004 {
+    margin-left: 80px;
+}
+.img004 {
+    margin-left: 80px;
+}
+.two1, .two11 {
+    color:#ffffff;
+   
+}
+.two2, .two22 {
+    color:#ffffff;
+}
+.two3, .two33 {
+    color:#ffffff;
+}
+.two4, .two44 {
+    color:#ffffff;
+}
+.two1 {
+   margin-left: 250px;
+   margin-top: -120px;
+   font-size: 40px;
+   font-family: 'Verdana', 'Geneva', Tahoma, sans-serif;
+}
+.two11 {
+   margin-left: 250px;
+   margin-top: -30px;
+   font-size: 12px;
+   font-family: 'Verdana', 'Geneva', Tahoma, sans-serif;
+}
+.two2 {
+   margin-left: 509px;
+   margin-top: -87px;
+   font-size: 40px;
+   font-family: 'Verdana', 'Geneva', Tahoma, sans-serif;
+}
+.two22 {
+   margin-left: 501px;
+   margin-top: -30px;
+   font-size: 12px;
+   font-family: 'Verdana', 'Geneva', Tahoma, sans-serif;
+}
+.two3 {
+   margin-left: 780px;
+   margin-top: -87px;
+   font-size: 40px;
+   font-family: 'Verdana', 'Geneva', Tahoma, sans-serif;
+}
+.two33 {
+   margin-left: 775px;
+   margin-top: -30px;
+   font-size: 12px;
+   font-family: 'Verdana', 'Geneva', Tahoma, sans-serif;
+}
+.two4 {
+   margin-left: 1030px;
+   margin-top: -87px;
+   font-size: 40px;
+   font-family: 'Verdana', 'Geneva', Tahoma, sans-serif;
+}
+.two44 {
+   margin-left: 1030px;
+   margin-top: -30px;
+   font-size: 12px;
+   font-family: 'Verdana', 'Geneva', Tahoma, sans-serif;
+}
+.contactus {
+    color:black;
+    margin-top: 900px;
+    text-align: center;
+    margin-left: -100px;
+    font-family: 'Verdana', 'Geneva', Tahoma, sans-serif;
+}
+.name, .email, .message{
+    font-family: 'Verdana', 'Geneva', Tahoma, sans-serif;
+    margin-left: 500px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.button2 {
+   text-decoration: none;
+   list-style: none;
+   border: none;
+   padding: 0;
+   margin-top: 20px;
+   font: inherit;
+   color: inherit;
+   cursor: pointer;
+   font-family: 'Verdana', 'Geneva', Tahoma, sans-serif;
+   background-color: #ff7171;
+   color: rgb(255, 255, 255);
+   border: none;
+   padding: 15px 20px;
+   border-radius: 80px;
+   cursor: pointer;
+   font-weight: bold;
+   
+   transition: box-shadow 0.9s ease;
+   text-align: center;   /* centers the text inside */
+   display: flex;
+   justify-content: center;  /* horizontal center */
+   align-items: center;      /* vertical center */
+   display: block;       /* makes it act like a block element */
+   margin: 0 auto;       /* automatically set left & right margins */
+   margin-top: 100px;
+   margin-right: 660px;
+}
+.last-part{
+    position: absolute;
+    top: 3639px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(7, 22, 41, 1);
+    padding: 155px 720px;
+    color: white;
+    margin-top: -900px;
+}
+.l-img{
+    position: absolute;
+    left: 165px;
+    margin-right: 100px;
+    size: 20px;
+     width: 150px;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+.last-part p{
+    position: absolute;
+    left: 672px;
+    top: 295px;
+    color: rgba(116, 123, 134, 0.588);
+    margin-top: -20px;
+}
+.last-part .facebook{
+    position: absolute;
+    left: 1070px;
+    color:#ffffff;
+}
+.l-img2 {
+    position: absolute;
+    left: 165px;
+    margin-right: 100px;
+    size: 20px;
+     width: 150px;
+    margin-left: 900px;
+    margin-top: -10px;
+}
+
+.pentagon {
+  width: 170px;
+  height: 170px;
+  clip-path: polygon(
+    50% 0%,
+    95% 35%,
+    78% 100%,
+    22% 100%,
+    5% 35%
+  );
+  display: inline-block;
+  margin: 0; /* small space between shapes */
+  margin-left: 130px;
+  margin-top: 100px;
+   
+  align-items: center; /* vertical center */
+  justify-content: center; /* horizontal center */
+  font-weight: bold;
+  font-size: 18px;
+  color: white; /* text color */
+  margin: 5px;
+}
+
+.pentagon.pink { background: #ff6565; }
+.pentagon.teal { background: #ff6565; }
+.pentagon.gold { background: #ff6565; }
